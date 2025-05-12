@@ -1,15 +1,10 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import styles from "./styles/main.module.css";
+import Link from "next/link";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const geistSans = Geist({ subsets: ["latin"], variable: "--font-sans" });
+const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata = {
   title: "Create Next App",
@@ -20,8 +15,28 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <div className={styles.container}>
+          <header className={styles.header}>
+            <nav className={styles.navbar}>
+              <Link href="/" className={styles.navbarLink}>Home</Link>
+              <Link href="/irac" className={styles.navbarLink}>IRAC</Link>
+              <Link href="/referencing" className={styles.navbarLink}>Referencing Guide</Link>
+              <Link href="/legalTerms" className={styles.navbarLink}>Legal Terms</Link>
+              <Link href="/legalTerms2" className={styles.navbarLink}>Legal Terms2</Link>
+              <Link href="/legalTerms3" className={styles.navbarLink}>Legal Terms3</Link>
+            </nav>
+          </header>
+
+          <main className={styles.mainContent}>
+            {children}
+          </main>
+
+          <footer className={styles.footer}>
+            <p>© 2025 Your App Name. All rights reserved.</p>
+          </footer>
+        </div>
       </body>
     </html>
   );
 }
+

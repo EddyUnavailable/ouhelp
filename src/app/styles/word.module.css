@@ -1,0 +1,54 @@
+/* CulpabilityVsResponsibility.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #1a1a1a;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #444;
+}
+
+p {
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+  color: #333;
+}
+
+li {
+  margin-bottom: 0.3rem;
+}
+
+em {
+  font-style: italic;
+  color: #555;
+}

@@ -1,0 +1,44 @@
+/* styles/main.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbarLink {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+}
+
+.navbarLink:hover {
+  background-color: #555;
+}
+
+.main-content {
+  margin-top: 70px; /* To offset the fixed navbar */
+  padding: 20px;
+  flex: 1;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  position: relative;
+}
