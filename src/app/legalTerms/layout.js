@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
               <Link href="/irac" className={styles.navbarLink}>IRAC</Link>
               <Link href="/referencing" className={styles.navbarLink}>Referencing Guide</Link>
               <Link href="/legalTerms" className={styles.navbarLink}>Legal Terms</Link>
-              <Link href="/legalTerms2" className={styles.navbarLink}>Criminal Law</Link>
+              <Link href="/legalTerms/criminalLaw" className={styles.navbarLink}>Criminal Law</Link>
               <Link href="/legalTerms3" className={styles.navbarLink}>Legal Terms3</Link>
               <Link href="/legalTerms4" className={styles.navbarLink}>Legal Terms4</Link>
               <Link href="/legalTerms5" className={styles.navbarLink}>Legal Terms5</Link>

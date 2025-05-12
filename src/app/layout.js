@@ -22,11 +22,11 @@ export default function RootLayout({ children }) {
               <Link href="/irac" className={styles.navbarLink}>IRAC</Link>
               <Link href="/referencing" className={styles.navbarLink}>Referencing Guide</Link>
               <Link href="/legalTerms" className={styles.navbarLink}>Legal Terms</Link>
-              <Link href="/legalTerms2" className={styles.navbarLink}>Legal Terms2</Link>
-              <Link href="/legalTerms3" className={styles.navbarLink}>Legal Terms3</Link>
-              <Link href="/legalTerms4" className={styles.navbarLink}>Legal Terms4</Link>
-              <Link href="/legalTerms5" className={styles.navbarLink}>Legal Terms5</Link>
-              <Link href="/legalTerms6" className={styles.navbarLink}>Legal Terms6</Link>
+              <Link href="/" className={styles.navbarLink}>Empty</Link>
+              <Link href="/" className={styles.navbarLink}>Empty</Link>
+              <Link href="/" className={styles.navbarLink}>Empty</Link>
+              <Link href="/" className={styles.navbarLink}>Empty</Link>
+              <Link href="/plannedFeatures" className={styles.navbarLink}>Planned Features</Link>
               <Link href="/culpability" className={styles.navbarLink}>Culpability</Link>
             </nav>
           </header>

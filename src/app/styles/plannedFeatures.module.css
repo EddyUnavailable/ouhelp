@@ -1,0 +1,34 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #003366;
+}
+
+.intro {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.sectionHeader {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  color: #005a9c;
+}
+
+.container ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.container li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
