@@ -35,15 +35,15 @@ const IRAC = () => {
         </tbody>
       </table>
 
-      <h2 className={styles.h2}>Example Problem Question: Sameera’s Criminal Liability</h2>
+      <h2 className={styles.h2}>Example Problem Question: Sameera&rsquo;s Criminal Liability</h2>
       <p className={styles.p}>Below is an example of a criminal law problem question that can be analyzed using the IRAC method:</p>
 
       <p className={styles.p}>
-        <strong className={styles.strong}>Sameera’s Case:</strong><br />
+        <strong className={styles.strong}>Sameera&rsquo;s Case:</strong><br />
         Sameera was married to Ronnie for over 15 years and they had two daughters together. During breakfast one morning, Sameera stabbed Ronnie 20 times in the chest with a kitchen knife, killing him. Sameera has a history of mental health problems. She says that she cannot remember stabbing Ronnie 20 times with the knife, but accepts that she must have done so. Sameera has been charged with Ronnie’s murder but has raised a defence of diminished responsibility.
       </p>
 
-      <h3 className={styles.h3}>IRAC Analysis of Sameera’s Case</h3>
+      <h3 className={styles.h3}>IRAC Analysis of Sameera&rsquo;s Case</h3>
 
       <h4 className={styles.h4}><strong className={styles.strong}>Issue:</strong></h4>
       <p className={styles.p}>The issue is whether Sameera is criminally liable for murder or whether she can successfully raise a defence of diminished responsibility due to her mental health history. The central legal question is whether the defence of diminished responsibility can reduce Sameera’s charge from murder to manslaughter.</p>

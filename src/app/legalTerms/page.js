@@ -123,7 +123,7 @@ export default function LegalTerms() {
           <tr>
             <td>Liability</td>
             <td>Being responsible for something</td>
-            <td>Legal responsibility for one's acts or omissions</td>
+            <td>Legal responsibility for one&apos;s acts or omissions</td>
             <td>{`The manufacturer was found liable for the defective product under consumer protection law.`}</td>
           </tr>
           <tr>
