@@ -1,6 +1,6 @@
 // app/legal-terms/page.js
 
-import styles from "../styles/legalTerms.module.css";
+import styles from "../../styles/legalTerms.module.css";
 
 export default function CriminalLaw() {
   return (
