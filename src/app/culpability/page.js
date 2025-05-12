@@ -1,8 +1,8 @@
 'use client';
 
-import styles from './style/word.module.css';
+import styles from '../styles/word.module.css';
 
-export default function CulpabilityVsResponsibilityPage() {
+export default function Culpability() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Culpability vs Responsibility</h1>
