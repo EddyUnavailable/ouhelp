@@ -6,7 +6,7 @@ export default function LegalTerms() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Legal Terms in UK Law</h1>
-      <h2 className={styles.subtitle}>Civil and Criminal Law Terms</h2>
+      
 
       <h3 className={styles.sectionHeader}>Civil Law Terms</h3>
       <table className={styles.table}>
@@ -48,6 +48,42 @@ export default function LegalTerms() {
             <td>Carelessness or lack of caution</td>
             <td>Conscious disregard of a known risk</td>
             <td>"Recklessness can establish mens rea in manslaughter cases."</td>
+          </tr>
+          <tr>
+            <td>Consideration</td>
+            <td>Thoughtfulness or kindness</td>
+            <td>Something of value exchanged to make a contract binding</td>
+            <td>A contract without consideration is not enforceable in English law.</td>
+          </tr>
+          <tr>
+            <td>Tort</td>
+            <td>N/A</td>
+            <td>A civil wrong that causes a person to suffer loss or harm (e.g., negligence, defamation)</td>
+            <td>Defamation is a type of tort in English civil law.</td>
+          </tr>
+          <tr>
+            <td>Indictment</td>
+            <td>A general accusation or criticism</td>
+            <td>A formal accusation of a serious crime tried on indictment (e.g., murder)</td>
+            <td>The Crown Court issued an indictment for armed robbery.</td>
+          </tr>
+          <tr>
+            <td>Due diligence</td>
+            <td>Making a sensible effort</td>
+            <td>Reasonable steps taken to avoid harm or breach of duty, especially in business contexts</td>
+            <td>The solicitor failed to carry out due diligence on the property title.</td>
+          </tr>
+          <tr>
+            <td>Estoppel</td>
+            <td>N/A</td>
+            <td>A legal principle preventing a person from contradicting a previous claim or representation</td>
+            <td>Proprietary estoppel arose when the claimant relied on the promise of inheritance.</td>
+          </tr>
+          <tr>
+            <td>Remedy</td>
+            <td>A cure or treatment</td>
+            <td>The means by which a court enforces a right or compensates for a breach</td>
+            <td>The court awarded damages as a remedy for the breach of contract.</td>
           </tr>
           <tr>
             <td>Mens rea</td>
@@ -109,88 +145,46 @@ export default function LegalTerms() {
             <td>Court order requiring a party to do or stop doing something</td>
             <td>"An injunction was granted to prevent the company from demolishing the historic building."</td>
           </tr>
-        </tbody>
-      </table>
-
-      <h3 className={styles.sectionHeader}>Criminal Law Terms</h3>
-      <table className={styles.table}>
-        <thead>
           <tr>
-            <th>Word</th>
-            <th>Everyday Meaning</th>
-            <th>Legal Meaning (UK Law)</th>
-            <th>Example (Legal Context)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Homicide</td>
-            <td>Killing of a person</td>
-            <td>Unlawful killing, can be murder or manslaughter</td>
-            <td>"The defendant was charged with homicide after the fatal incident."</td>
-          </tr>
-          <tr>
-            <td>Assault</td>
-            <td>A physical attack</td>
-            <td>Causing someone to fear immediate unlawful violence</td>
-            <td>"Words and gestures alone can constitute assault in UK law."</td>
-          </tr>
-          <tr>
-            <td>Battery</td>
-            <td>Beating or physical force</td>
-            <td>Actual unlawful physical contact</td>
-            <td>"Pushing someone without consent may amount to battery."</td>
-          </tr>
-          <tr>
-            <td>Theft</td>
-            <td>Stealing something</td>
-            <td>Dishonestly appropriating property with intent to permanently deprive</td>
-            <td>"He was convicted of theft for stealing a laptop from the office."</td>
-          </tr>
-          <tr>
-            <td>Burglary</td>
-            <td>Breaking into a building to steal</td>
-            <td>Entering a building as a trespasser with intent to commit theft, GBH, or unlawful damage</td>
-            <td>"The suspect was charged with burglary after entering the house without permission."</td>
-          </tr>
-          <tr>
-            <td>Robbery</td>
-            <td>Violent theft</td>
-            <td>Theft with the use or threat of force</td>
-            <td>"He was convicted of robbery for threatening the cashier with a knife."</td>
-          </tr>
-          <tr>
-            <td>Fraud</td>
-            <td>Deception for personal gain</td>
-            <td>Dishonestly making a false representation, failing to disclose information, or abusing a position</td>
-            <td>"She was found guilty of fraud after using false documents to obtain a loan."</td>
-          </tr>
-          <tr>
-            <td>Arson</td>
-            <td>Deliberately setting fire to something</td>
-            <td>Criminal damage by fire to property belonging to another</td>
-            <td>"He was charged with arson for setting fire to the warehouse."</td>
-          </tr>
-          <tr>
-            <td>Perjury</td>
-            <td>Lying</td>
-            <td>Knowingly giving false evidence under oath</td>
-            <td>"The witness was prosecuted for perjury after lying in court."</td>
+            <td>Strict liability</td>
+            <td>Being responsible no matter what</td>
+            <td>Offences that do not require proof of mens rea for at least part of the offence</td>
+            <td>Selling alcohol to a minor is a strict liability offence, even if the seller believed the buyer was of age.</td>
           </tr>
           <tr>
             <td>Conspiracy</td>
             <td>A secret plan</td>
-            <td>An agreement between two or more people to commit a criminal offence</td>
-            <td>"They were charged with conspiracy to defraud the government."</td>
+            <td>An agreement between two or more persons to commit a criminal offence</td>
+            <td>He was charged with conspiracy to supply illegal drugs.</td>
           </tr>
           <tr>
-            <td>Kidnapping</td>
-            <td>Taking someone by force</td>
-            <td>Unlawful taking or detaining of a person by force or fraud</td>
-            <td>"He was found guilty of kidnapping after detaining the victim against their will."</td>
+            <td>Aiding and abetting</td>
+            <td>Helping someone do something</td>
+            <td>Assisting, encouraging, or facilitating the commission of a crime</td>
+            <td>She was convicted of aiding and abetting the robbery by driving the getaway car.</td>
+          </tr>
+          <tr>
+            <td>Mitigation</td>
+            <td>Lessening the severity</td>
+            <td>Circumstances that reduce the seriousness of the offence or sentence</td>
+            <td>The judge considered his remorse as a factor in mitigation.</td>
+          </tr>
+          <tr>
+            <td>Aggravating factors</td>
+            <td>Things that make a situation worse</td>
+            <td>Factors that increase the seriousness of the offence and may lead to a harsher sentence</td>
+            <td>Use of a weapon was an aggravating factor in sentencing.</td>
+          </tr>
+          <tr>
+            <td>Duress</td>
+            <td>Being pressured or forced</td>
+            <td>A defence where the defendant was forced to commit a crime due to threat of harm</td>
+            <td>He claimed he acted under duress when threatened with violence.</td>
           </tr>
         </tbody>
       </table>
+
+      
     </div>
   );
 }
