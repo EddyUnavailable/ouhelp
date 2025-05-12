@@ -2,14 +2,9 @@
 
 import styles from '../styles/legalTerms.module.css';
 
-export default function LegalTermsPage() {
+export default function LegalTermsPage6() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Legal Terms: Everyday vs. Legal Meaning</h1>
-      <p className={styles.intro}>
-        The table below outlines how certain terms differ between everyday use and UK legal contexts. This resource is especially useful for law students and anyone engaged in reading or writing legal materials.
-      </p>
-
       <h2 className={styles.subtitle}>Legal Grammar Features</h2>
       <table className={styles.table}>
         <thead>
