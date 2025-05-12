@@ -26,6 +26,7 @@ export default function RootLayout({ children }) {
               <Link href="/legalTerms3" className={styles.navbarLink}>Legal Terms3</Link>
               <Link href="/legalTerms4" className={styles.navbarLink}>Legal Terms4</Link>
               <Link href="/legalTerms5" className={styles.navbarLink}>Legal Terms5</Link>
+              <Link href="/legalTerms6" className={styles.navbarLink}>Legal Terms6</Link>
               <Link href="/culpability" className={styles.navbarLink}>Culpability</Link>
             </nav>
           </header>
