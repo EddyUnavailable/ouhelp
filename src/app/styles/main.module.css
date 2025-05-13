@@ -83,7 +83,7 @@
   gap: 5px;
   margin-top: 0px;
   margin-left: -110px;
-  justify-content: start;
+  
 }
 
 /* Nav Bar BUttons */
@@ -93,7 +93,7 @@
   width: 100px;
   height: 50px;
   justify-content: center;
-  /* align-content: center; */
+ 
   align-items: center;
   box-sizing: border-box;
   border-radius: 15%;

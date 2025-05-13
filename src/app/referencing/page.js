@@ -21,7 +21,7 @@ export default function Referencing() {
       </p>
 
       <p>
-        A <strong>downloadable Quick Guide</strong> to Cite Them Right Referencing for Law Modules is also available via the OU Library. This is a practical tool that covers the most common citation formats you'll need and may be more useful day-to-day than the full CTR website.
+        A <strong>downloadable Quick Guide</strong> to Cite Them Right Referencing for Law Modules is also available via the OU Library. This is a practical tool that covers the most common citation formats you&rsquo;ll need and may be more useful day-to-day than the full CTR website.
       </p>
 
       <p>
