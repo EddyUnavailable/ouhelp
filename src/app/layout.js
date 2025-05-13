@@ -18,17 +18,20 @@ export default function RootLayout({ children }) {
         <div className={styles.container}>
           <header className={styles.header}>
             <nav className={styles.navbar}>
-              <Link href="/" className={styles.navbarLink}>Home</Link>
-              <Link href="/irac" className={styles.navbarLink}>IRAC</Link>
-              <Link href="/referencing" className={styles.navbarLink}>Referencing Guide</Link>
-              <Link href="/legalTerms" className={styles.navbarLink}>Legal Terms</Link>
-              <Link href="/" className={styles.navbarLink}>Empty</Link>
-              <Link href="/" className={styles.navbarLink}>Empty</Link>
-              <Link href="/" className={styles.navbarLink}>Empty</Link>
-              <Link href="/" className={styles.navbarLink}>Empty</Link>
-              <Link href="/plannedFeatures" className={styles.navbarLink}>Planned Features</Link>
-              <Link href="/culpability" className={styles.navbarLink}>Culpability</Link>
+              <Link href="/" className={styles.navBut}>Home</Link>
+              <Link href="/irac" className={styles.navBut}>IRAC</Link>
+              <Link href="/referencing" className={styles.navBut}>Referencing Guide</Link>
+              <Link href="/legalTerms" className={styles.navBut}>Legal Terms</Link>
+              <Link href="/caseLaw" className={styles.navBut}>Case Law</Link>
+              <Link href="/branchesOfLaw" className={styles.navBut}>Branches Of Law</Link>
+              <Link href="/legalWriting" className={styles.navBut}>Legal Writing Help</Link>
+              <Link href="/improveWriting" className={styles.navBut}>Improve Writing</Link>
+              <Link href="/plannedFeatures" className={styles.navBut}>Planned Features</Link>
+              <Link href="/culpability" className={styles.navBut}>Culpability</Link>
             </nav>
+            <div className={styles.sideBar}>
+
+            </div>
           </header>
 
           <main className={styles.mainContent}>

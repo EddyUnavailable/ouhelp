@@ -35,3 +35,10 @@
 .container li {
   margin-bottom: 0.5rem;
 }
+
+.referenceList {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  list-style-type: disc;
+}
