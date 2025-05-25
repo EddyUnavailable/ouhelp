@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { createClient } from '@supabase/supabase-js';
-import styles from "./../styles/legalTerms.module.css";
+import styles from "@/styles/legalTerms.module.css";
 
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;

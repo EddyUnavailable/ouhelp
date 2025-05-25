@@ -1,0 +1,38 @@
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: #2a2a2a;
+}
+
+.list {
+  padding-left: 1.5rem;
+}
+
+.link {
+  color: #0055aa;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #003377;
+  text-decoration: none;
+}

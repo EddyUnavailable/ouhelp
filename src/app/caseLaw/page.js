@@ -1,5 +1,5 @@
 // app/case-law/page.js
-import styles from '../styles/caseLawPage.module.css';
+import styles from '@/styles/caseLawPage.module.css';
 import Link from 'next/link';
 
 const caseLaws = [

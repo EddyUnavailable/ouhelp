@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "./../styles/plannedFeatures.module.css";
+import styles from "@/styles/plannedFeatures.module.css";
 
 export default function PlannedFeatures() {
   return (

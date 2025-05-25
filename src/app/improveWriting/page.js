@@ -1,5 +1,5 @@
 // app/improve-writing/page.js
-import styles from "./../styles/legalWriting.module.css";
+import styles from "@/styles/legalWriting.module.css";
 import Link from "next/link";
 
 export default function ImproveWritingPage() {

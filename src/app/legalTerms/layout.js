@@ -1,5 +1,5 @@
 
-import styles from "./../styles/main.module.css";
+import styles from "@/styles/layout.module.css";
 import Link from "next/link";
 
 
@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
     <div>
       <div>
         <div className={styles.container2}>
-          <aside className={styles.sideNav}>
+          <aside className={styles.aside}>
               <Link href="/legalTerms" className={styles.navBut}>Legal Terms</Link>
               <Link href="/legalTerms/legalTerms2" className={styles.navBut}>Place Holder</Link>
               <Link href="/legalTerms/legalTerms3" className={styles.navBut}>Place Holder</Link>

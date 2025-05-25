@@ -1,0 +1,144 @@
+.page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  flex: 1 1 100px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #003078;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0050b3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.resultContainer {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 0.5rem;
+}
+.page {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 120px;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #0051a8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #003e85;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.legislationContainer {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.part {
+  margin-bottom: 2rem;
+}
+
+.partTitle {
+  font-size: 1.25rem;
+ 
+}
+.legal-section {
+  margin-bottom: 20px;
+}
+
+.legal-section h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.legal-section h4, .legal-section h5 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.pblock {
+  margin-left: 20px;
+}
+
+.substitution {
+  font-style: italic;
+  color: darkblue;
+}

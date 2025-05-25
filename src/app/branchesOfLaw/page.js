@@ -1,5 +1,5 @@
 // app/branches-of-law/page.js
-import styles from "./../styles/branchesOfLaw.module.css";
+import styles from "@/styles/branchesOfLaw.module.css";
 
 export default function BranchesOfLawPage() {
   return (

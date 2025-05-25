@@ -1,5 +1,5 @@
 // app/legal-writing/page.js
-import styles from "./../styles/legalWriting.module.css";
+import styles from "@/styles/legalWriting.module.css";
 
 export default function LegalWritingPage() {
   return (

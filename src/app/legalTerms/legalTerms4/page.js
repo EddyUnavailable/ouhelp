@@ -1,6 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import LegalTermForm from '../../components/LegalTermForm'
-import styles from "../../styles/legalTerms.module.css";
+import styles from "@/styles/legalTerms.module.css";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;

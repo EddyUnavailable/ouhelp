@@ -1,6 +1,6 @@
 'use client';
 
-import styles from '../styles/word.module.css';
+import styles from '@/styles/word.module.css';
 
 export default function Culpability() {
   return (

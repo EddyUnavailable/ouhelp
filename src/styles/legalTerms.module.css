@@ -194,3 +194,48 @@
   background-color: #f8d7da;
   border-radius: 5px;
 }
+
+/* legalTerms.module.css */
+.legislationContent {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.legislationText {
+  margin-top: 0.5rem;
+  font-weight: normal;
+}
+
+.legislationHeading {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+.wrapper {
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #333;
+}
+
+.legislationContainer {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.section {
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: red;
+}

@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import styles from "./styles/main.module.css";
+import styles from "@/styles/layout.module.css";
 import Link from "next/link";
 
 const geistSans = Geist({ subsets: ["latin"], variable: "--font-sans" });
@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
               <Link href="/improveWriting" className={styles.navBut}>Improve Writing</Link>
               <Link href="/plannedFeatures" className={styles.navBut}>Planned Features</Link>
               <Link href="/culpability" className={styles.navBut}>Culpability</Link>
+              <Link href="/criminalLawGuide" className={styles.navBut}>Criminal Law</Link>
             </nav>
             <div className={styles.sideBar}>
 
