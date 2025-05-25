@@ -1,63 +1,144 @@
-import React from 'react';
-import styles from '@/styles/irac.module.css';  // Import the CSS module
+import Link from 'next/link'; // Import Link for internal navigation
+import styles from '@/styles/irac.module.css';
 
-const IRAC = () => {
+export default function IRAC() {
   return (
-    <div className={styles.container}>
-      <h1 className={styles.h1}>6.5.1 Using the IRAC Method for Problem Questions</h1>
-      <p className={styles.p}>The IRAC method provides an easy-to-remember acronym to help students structure a problem question. This method helps you organize your answer with a clear sequence of points to address. Here is what each letter stands for:</p>
-      
-      <h2 className={styles.h2}>The IRAC Method</h2>
-      <table className={styles.table}>
-        <thead>
-          <tr>
-            <th className={styles.th}>Letter</th>
-            <th className={styles.th}>Meaning</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className={styles.td}><strong className={styles.strong}>I</strong></td>
-            <td className={styles.td}><strong className={styles.strong}>Issue:</strong> Identify the key legal issue(s) in the problem, not just a summary of facts. Focus on the relevant legal question.</td>
-          </tr>
-          <tr>
-            <td className={styles.td}><strong className={styles.strong}>R</strong></td>
-            <td className={styles.td}><strong className={styles.strong}>Rule:</strong> Outline the relevant legal rules that apply to the issue. This is where you state the law that addresses the problem.</td>
-          </tr>
-          <tr>
-            <td className={styles.td}><strong className={styles.strong}>A</strong></td>
-            <td className={styles.td}><strong className={styles.strong}>Application:</strong> Apply the law to the facts of the case. This is the analysis part, where you argue how the law affects the specific facts of the problem.</td>
-          </tr>
-          <tr>
-            <td className={styles.td}><strong className={styles.strong}>C</strong></td>
-            <td className={styles.td}><strong className={styles.strong}>Conclusion:</strong> Summarize the outcome of the application of the rule. What is the legal effect of the rule on the case?</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h2 className={styles.h2}>Example Problem Question: Sameera&rsquo;s Criminal Liability</h2>
-      <p className={styles.p}>Below is an example of a criminal law problem question that can be analyzed using the IRAC method:</p>
-
-      <p className={styles.p}>
-        <strong className={styles.strong}>Sameera&rsquo;s Case:</strong><br />
-        Sameera was married to Ronnie for over 15 years and they had two daughters together. During breakfast one morning, Sameera stabbed Ronnie 20 times in the chest with a kitchen knife, killing him. Sameera has a history of mental health problems. She says that she cannot remember stabbing Ronnie 20 times with the knife, but accepts that she must have done so. Sameera has been charged with Ronnie’s murder but has raised a defence of diminished responsibility.
+    <main className={styles.container}>
+      {/* Main heading with clear, accessible title */}
+      <h1 className={styles.title}>Using the IRAC Method for Legal Problem Questions</h1>
+      <p className={styles.intro}>
+        The IRAC (Issue, Rule, Application, Conclusion) method is a structured approach to legal analysis widely used in UK law to address problem questions. It provides a clear framework to organize arguments and ensure all relevant legal points are covered. Below, we explain the IRAC method and apply it to a criminal law scenario involving diminished responsibility, with tips for effective legal writing.
       </p>
 
-      <h3 className={styles.h3}>IRAC Analysis of Sameera&rsquo;s Case</h3>
+      {/* Section for IRAC Method Explanation */}
+      <section className={styles.example}>
+        <h2 className={styles.exampleTitle}>The IRAC Method</h2>
+        <p className={styles.sectionContent}>
+          The IRAC method helps law students and professionals systematically analyze legal problems. Each component focuses on a specific aspect of legal reasoning, ensuring clarity and coherence in your answers.
+        </p>
+        <table className={styles.table}>
+          <thead>
+            <tr>
+              <th className={styles.th}>Component</th>
+              <th className={styles.th}>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className={styles.td}><strong>Issue</strong></td>
+              <td className={styles.td}>Identify the key legal question(s) raised by the scenario. Focus on the specific legal issue, not just the facts, to frame the analysis clearly.</td>
+            </tr>
+            <tr>
+              <td className={styles.td}><strong>Rule</strong></td>
+              <td className={styles.td}>State the relevant legal principles, statutes, or case law that apply to the issue. This establishes the legal framework for your analysis.</td>
+            </tr>
+            <tr>
+              <td className={styles.td}><strong>Application</strong></td>
+              <td className={styles.td}>Apply the legal rules to the facts of the case, analyzing how the law interacts with the specific circumstances. This is the core of your argument.</td>
+            </tr>
+            <tr>
+              <td className={styles.td}><strong>Conclusion</strong></td>
+              <td className={styles.td}>Summarize the outcome of your analysis, answering the legal issue and outlining the likely legal consequences or remedies.</td>
+            </tr>
+          </tbody>
+        </table>
+        <div className={styles.tip}>
+          <strong>Tip:</strong> Use the IRAC structure to ensure a logical flow in your answers. Practice identifying issues first, as this guides the rest of your analysis. For complex problems, you may need multiple IRACs to address distinct issues.
+        </div>
+      </section>
 
-      <h4 className={styles.h4}><strong className={styles.strong}>Issue:</strong></h4>
-      <p className={styles.p}>The issue is whether Sameera is criminally liable for murder or whether she can successfully raise a defence of diminished responsibility due to her mental health history. The central legal question is whether the defence of diminished responsibility can reduce Sameera’s charge from murder to manslaughter.</p>
+      {/* Section for Sameera’s Case Example */}
+      <section className={styles.example}>
+        <h2 className={styles.exampleTitle}>Example: Sameera’s Criminal Liability</h2>
+        <p className={styles.sectionContent}>
+          Below is an IRAC analysis of a criminal law problem question involving Sameera, charged with murder but raising a defence of diminished responsibility due to her mental health history.
+        </p>
+        <p className={styles.sectionContent}>
+          <strong>Scenario:</strong><br />
+          Sameera, married to Ronnie for over 15 years with two daughters, stabbed him 20 times in the chest with a kitchen knife during breakfast on 1st May 2025, killing him. Sameera has a documented history of mental health problems and claims she cannot remember the stabbing but accepts responsibility for it. She has been charged with murder and is raising a defence of diminished responsibility.
+        </p>
 
-      <h4 className={styles.h4}><strong className={styles.strong}>Rule:</strong></h4>
-      <p className={styles.p}>The legal rule governing murder in the UK is that murder occurs when a person intentionally kills another with malice aforethought. However, a defendant may raise a partial defence of diminished responsibility under the Homicide Act 1957, where the defendant has a mental condition that impairs their ability to form intent or control their actions. If the defence is successful, the charge may be reduced from murder to manslaughter.</p>
+        {/* Issue Section */}
+        <h3 className={styles.sectionHeading}>Issue</h3>
+        <p className={styles.sectionContent}>
+          Can Sameera successfully raise the defence of diminished responsibility to reduce her murder charge to manslaughter, given her mental health history, on 1st May 2025?
+        </p>
+        <div className={styles.tip}>
+          <strong>Tip:</strong> State the issue as a precise legal question, identifying the parties, date, and specific defence. This focuses your analysis and mirrors real-world legal problem questions.
+        </div>
 
-      <h4 className={styles.h4}><strong className={styles.strong}>Application:</strong></h4>
-      <p className={styles.p}>Sameera has a history of mental health problems, which she asserts contributed to her not remembering the act of stabbing Ronnie, though she accepts that she did it. The application of the law in this case involves assessing whether Sameera’s mental health condition impaired her ability to understand the nature of her actions or control them at the time of the stabbing. Medical evidence of her condition and the fact that she doesn&rsquo;t remember the stabbing might suggest diminished responsibility, but this would depend on expert testimony.</p>
+        {/* Rule Section */}
+        <h3 className={styles.sectionHeading}>Rule</h3>
+        <p className={styles.sectionContent}>
+          Under UK law, murder is defined as the unlawful killing of a person with malice aforethought (intention to kill or cause grievous bodily harm). The partial defence of diminished responsibility, per section 2 of the Homicide Act 1957 (as amended by the Coroners and Justice Act 2009), allows a murder charge to be reduced to manslaughter if the defendant’s ability to: (1) understand the nature of their conduct, (2) form a rational judgment, or (3) exercise self-control was substantially impaired by an abnormality of mental functioning arising from a recognized medical condition. The burden is on the defendant to prove this defence on the balance of probabilities, often supported by medical evidence (see <em>R v Byrne</em> [1960] 2 QB 396; <em>R v Seers</em> [1984] Crim LR 351).
+        </p>
+        <div className={styles.tip}>
+          <strong>Tip:</strong> Clearly outline the legal rule, including statutory provisions and case law. Break down the elements of the defence (e.g., abnormality, substantial impairment) to guide your application.
+        </div>
 
-      <h4 className={styles.h4}><strong className={styles.strong}>Conclusion:</strong></h4>
-      <p className={styles.p}>The conclusion is that Sameera could be convicted of manslaughter instead of murder if the defence of diminished responsibility is successful. The key factor is whether the court accepts that her mental health condition sufficiently impaired her ability to form the intent required for a murder conviction.</p>
-    </div>
+        {/* Application Section */}
+        <h3 className={styles.sectionHeading}>Application</h3>
+        <p className={styles.sectionContent}>
+          Sameera stabbed Ronnie 20 times, indicating an intention to kill or cause grievous bodily harm, meeting the actus reus and mens rea for murder. However, she raises diminished responsibility, claiming her mental health condition impaired her recollection of the act. Her documented history of mental health problems suggests a recognized medical condition, potentially an abnormality of mental functioning. The lack of memory and the excessive nature of the attack (20 stabs) may support substantial impairment of her ability to understand her actions or exercise self-control. However, medical expert testimony is critical to establish whether her condition meets the criteria under section 2 of the Homicide Act 1957. If the court accepts this evidence, the defence may succeed; otherwise, she risks a murder conviction.
+        </p>
+        <div className={styles.tip}>
+          <strong>Tip:</strong> Systematically apply each element of the rule to the facts, addressing potential weaknesses (e.g., need for medical evidence). Acknowledge alternative outcomes to show critical thinking.
+        </div>
+
+        {/* Conclusion Section */}
+        <h3 className={styles.sectionHeading}>Conclusion</h3>
+        <p className={styles.sectionContent}>
+          If Sameera’s defence of diminished responsibility is supported by medical evidence proving substantial impairment due to an abnormality of mental functioning, her murder charge could be reduced to voluntary manslaughter under section 2 of the Homicide Act 1957. If the defence fails, she is likely to be convicted of murder, facing a mandatory life sentence.
+        </p>
+        <div className={styles.tip}>
+          <strong>Tip:</strong> Conclude by directly answering the issue and outlining potential outcomes (e.g., manslaughter vs. murder). Mention remedies or consequences to connect the analysis to practical legal implications.
+        </div>
+
+        {/* Reference Section */}
+        <h4 className={styles.referenceHeading}>Full References</h4>
+        <p className={styles.sectionContent}>
+          <em>R v Byrne</em> [1960] 2 QB 396.<br />
+          <em>R v Seers</em> [1984] Crim LR 351.<br />
+          Homicide Act 1957, s 2 (as amended by Coroners and Justice Act 2009, s 52).
+        </p>
+        <div className={styles.tip}>
+          <strong>Tip:</strong> Use OSCOLA format for citations, including cases and statutes. Provide context for each reference to clarify its relevance to the rule or defence.
+        </div>
+      </section>
+
+      {/* Additional Resources Section */}
+      <section className={styles.resources}>
+        <h2 className={styles.exampleTitle}>Further Tips for Using IRAC</h2>
+        <ul className={styles.resourceList}>
+          <li>Break down complex legal problems into smaller issues to address multiple IRACs if needed.</li>
+          <li>Use clear headings and subheadings to enhance readability and structure your analysis logically.</li>
+          <li>Address potential defenses or counterarguments in the application to show critical thinking.</li>
+          <li>Cite authoritative sources (e.g., cases, statutes, or academic commentary) to support your rule section.</li>
+          <li>Write concisely but comprehensively, avoiding unnecessary legal jargon.</li>
+        </ul>
+        <p>
+          For more guidance on legal writing, visit the{' '}
+          <a
+            href="https://www.law.ox.ac.uk/oscola"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.externalLink}
+          >
+            OSCOLA citation guide
+          </a>{' '}
+          provided by the University of Oxford’s Faculty of Law or refer to textbooks such as <em>Learning Legal Skills and Reasoning</em> by Sharon Hanson.{' '}
+          {/* Note: Verify external links periodically, as URLs may change. */}
+          <Link href="/irac-examples/trespass" className={styles.internalLink}>
+            View Trespass to Land IRAC Example
+          </Link>{' '}
+          <Link href="/irac-examples/duty-of-care" className={styles.internalLink}>
+            View Duty of Care IRAC Example
+          </Link>{' '}
+          <Link href="/irac-examples/dudley-stephens" className={styles.internalLink}>
+            View Dudley and Stephens IRAC Example
+          </Link>
+        </p>
+      </section>
+    </main>
   );
-};
-
-export default IRAC;
+}
