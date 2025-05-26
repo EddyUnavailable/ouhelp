@@ -1,4 +1,4 @@
-// import styles from "@/styles/legalTerms.module.css";
+import styles from "@/styles/legalTerms.module.css";
 
 export default function ARMRPage() {
   return (
