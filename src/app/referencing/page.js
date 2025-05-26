@@ -73,7 +73,7 @@ export default function Referencing() {
       <ul className={styles.referenceList}>
         <li>
           <strong>Square brackets [ ]</strong> mean the <em>year is essential</em> to find the case in the law report series.<br />
-          For example: <em>R (Evans) v Attorney General [2015] UKSC 21</em> – The UK Supreme Court restarts case numbering each year, so "[2015]" tells you which year's case number to look for.
+          For example: <em>R (Evans) v Attorney General [2015] UKSC 21</em> – The UK Supreme Court restarts case numbering each year, so &quot;[2015]&quot; tells you which year&apos;s case number to look for.
         </li>
         <li>
           <strong>Round brackets ( )</strong> are used when the volume number is sufficient to find the case, and the year is just extra context.<br />
@@ -86,7 +86,7 @@ export default function Referencing() {
       </p>
 
       <p>
-        If you're unsure which format to use, check the example provided by <em>Cite Them Right</em> or refer to the module guide or quick reference sheet.
+        If you&apos;re unsure which format to use, check the example provided by <em>Cite Them Right</em> or refer to the module guide or quick reference sheet.
       </p>
 
       <h2 className={styles.subtitle}>Sample Referenced Paragraph</h2>
