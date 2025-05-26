@@ -1,0 +1,147 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #1a3c6d;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.partSection {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.partTitle {
+  font-size: 1.8rem;
+  color: #2a4b8d;
+  margin-bottom: 1rem;
+}
+
+.sectionContent {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tip {
+  background-color: #e6f0fa;
+  padding: 1rem;
+  border-left: 4px solid #2a4b8d;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.resources {
+  margin-top: 2rem;
+}
+
+.resourceList {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.resourceList li {
+  margin-bottom: 0.5rem;
+}
+
+/* Styling for external links */
+.externalLink {
+  color: #2a4b8d;
+  text-decoration: underline;
+}
+
+.externalLink:hover {
+  color: #1a3c6d;
+  text-decoration: none;
+}
+
+/* Styling for internal links */
+.internalLink {
+  color: #2a4b8d;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.internalLink:hover {
+  text-decoration: underline;
+}
+
+/* Quiz form styling */
+.quizForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.quizLabel {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.quizSelect {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.button {
+  background-color: #2a4b8d;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.button:hover {
+  background-color: #1a3c6d;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .partTitle {
+    font-size: 1.5rem;
+  }
+
+  .sectionContent {
+    font-size: 0.95rem;
+  }
+
+  .tip {
+    font-size: 0.9rem;
+  }
+
+  .quizSelect {
+    font-size: 0.9rem;
+  }
+}

@@ -24,7 +24,6 @@ export default function RootLayout({ children }) {
               <Link href="/legalTerms" className={styles.navBut}>Legal Terms</Link>
               <Link href="/caseLaw" className={styles.navBut}>Case Law</Link>
               <Link href="/branchesOfLaw" className={styles.navBut}>Branches Of Law</Link>
-              <Link href="/legalWriting" className={styles.navBut}>Legal Writing Help</Link>
               <Link href="/improveWriting" className={styles.navBut}>Improve Writing</Link>
               <Link href="/plannedFeatures" className={styles.navBut}>Planned Features</Link>
               <Link href="/culpability" className={styles.navBut}>Culpability</Link>

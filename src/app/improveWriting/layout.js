@@ -2,17 +2,15 @@
 import styles from "@/styles/layout.module.css";
 import Link from "next/link";
 
-
-
-export default function IRACLayout({ children }) {
+export default function WritingLayout({ children }) {
   return (
     <div className={styles.container}>
       <div className={styles.container}>
         <div className={styles.containerAside}>
            <aside className={styles.aside}>
               <Link href="/" className={styles.navBut}>Home</Link>
-              <Link href="/irac/iracExample1" className={styles.navBut}>Example 1</Link>
-              <Link href="/irac/iracExample2" className={styles.navBut}>Example 2</Link>
+              <Link href="/improveWriting/legalWriting" className={styles.navBut}>Example 1</Link>
+              <Link href="/improveWriting/partsOfSpeech" className={styles.navBut}>Example 2</Link>
               <Link href="/irac/iracExample3" className={styles.navBut}>Example 3</Link>
               <Link href="/irac/iracExample4" className={styles.navBut}>Example 4</Link>
               <Link href="/irac/iracExample5" className={styles.navBut}>Example 5</Link>
