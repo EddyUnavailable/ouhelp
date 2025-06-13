@@ -7,7 +7,7 @@ export default function IRAC() {
       {/* Main heading with clear, accessible title */}
       <h1 className={styles.title}>Using the IRAC Method for Legal Problem Questions</h1>
       <p className={styles.intro}>
-        The IRAC (Issue, Rule, Application, Conclusion) method is a structured approach to legal analysis widely used in UK law to address problem questions. It provides a clear framework to organize arguments and ensure all relevant legal points are covered. Below, we explain the IRAC method and apply it to a criminal law scenario involving diminished responsibility, with tips for effective legal writing.
+        The IRAC (Issue, Rule, Application, Conclusion) method is a structured approach to legal analysis widely used in UK law to address problem questions. It provides a clear framework to organize arguments and ensure all relevant legal points are covered. Below, we explain the IRAC method and apply it to a theft scenario, with tips for effective legal writing.
       </p>
 
       {/* Section for IRAC Method Explanation */}
@@ -47,62 +47,61 @@ export default function IRAC() {
         </div>
       </section>
 
-      {/* Section for Sameera’s Case Example */}
+      {/* Section for Generic Theft Example */}
       <section className={styles.example}>
-        <h2 className={styles.exampleTitle}>Example: Sameera’s Criminal Liability</h2>
+        <h2 className={styles.exampleTitle}>Example: Theft Liability</h2>
         <p className={styles.sectionContent}>
-          Below is an IRAC analysis of a criminal law problem question involving Sameera, charged with murder but raising a defence of diminished responsibility due to her mental health history.
+          Below is an IRAC analysis of a criminal law problem question involving a defendant charged with theft after taking items from a shop.
         </p>
         <p className={styles.sectionContent}>
           <strong>Scenario:</strong><br />
-          Sameera, married to Ronnie for over 15 years with two daughters, stabbed him 20 times in the chest with a kitchen knife during breakfast on 1st May 2025, killing him. Sameera has a documented history of mental health problems and claims she cannot remember the stabbing but accepts responsibility for it. She has been charged with murder and is raising a defence of diminished responsibility.
+          On 1st May 2025, the defendant entered a shop, picked up a jacket worth £100, and left without paying. The defendant claims they believed the jacket was a free sample due to a misunderstanding about a promotional display. They have been charged with theft under the Theft Act 1968.
         </p>
 
         {/* Issue Section */}
         <h3 className={styles.sectionHeading}>Issue</h3>
         <p className={styles.sectionContent}>
-          Can Sameera successfully raise the defence of diminished responsibility to reduce her murder charge to manslaughter, given her mental health history, on 1st May 2025?
+          Can the defendant be convicted of theft under the Theft Act 1968 for taking the jacket on 1st May 2025, given their claim of believing it was a free sample?
         </p>
         <div className={styles.tip}>
-          <strong>Tip:</strong> State the issue as a precise legal question, identifying the parties, date, and specific defence. This focuses your analysis and mirrors real-world legal problem questions.
+          <strong>Tip:</strong> State the issue as a precise legal question, identifying the parties, date, and specific offence. This focuses your analysis and mirrors real-world legal problem questions.
         </div>
 
         {/* Rule Section */}
         <h3 className={styles.sectionHeading}>Rule</h3>
         <p className={styles.sectionContent}>
-          Under UK law, murder is defined as the unlawful killing of a person with malice aforethought (intention to kill or cause grievous bodily harm). The partial defence of diminished responsibility, per section 2 of the Homicide Act 1957 (as amended by the Coroners and Justice Act 2009), allows a murder charge to be reduced to manslaughter if the defendant’s ability to: (1) understand the nature of their conduct, (2) form a rational judgment, or (3) exercise self-control was substantially impaired by an abnormality of mental functioning arising from a recognized medical condition. The burden is on the defendant to prove this defence on the balance of probabilities, often supported by medical evidence (see <em>R v Byrne</em> [1960] 2 QB 396; <em>R v Seers</em> [1984] Crim LR 351).
+          Under section 1 of the Theft Act 1968, theft is defined as the dishonest appropriation of property belonging to another with the intention of permanently depriving the other of it. The actus reus requires appropriation (s 3), property (s 4), and belonging to another (s 5). The mens rea requires dishonesty (s 2) and an intention to permanently deprive (s 6). Dishonesty is assessed using the test from <em>Ivey v Genting Casinos</em> [2017] UKSC 67, which considers (1) the defendant’s actual knowledge or belief about the facts and (2) whether their conduct was dishonest by the standards of ordinary reasonable people. A genuine belief in a legal right to the property (s 2(1)(a)) may negate dishonesty.
         </p>
         <div className={styles.tip}>
-          <strong>Tip:</strong> Clearly outline the legal rule, including statutory provisions and case law. Break down the elements of the defence (e.g., abnormality, substantial impairment) to guide your application.
+          <strong>Tip:</strong> Clearly outline the legal rule, including statutory provisions and case law. Break down the elements of the offence (e.g., actus reus, mens rea) to guide your application.
         </div>
 
         {/* Application Section */}
         <h3 className={styles.sectionHeading}>Application</h3>
         <p className={styles.sectionContent}>
-          Sameera stabbed Ronnie 20 times, indicating an intention to kill or cause grievous bodily harm, meeting the actus reus and mens rea for murder. However, she raises diminished responsibility, claiming her mental health condition impaired her recollection of the act. Her documented history of mental health problems suggests a recognized medical condition, potentially an abnormality of mental functioning. The lack of memory and the excessive nature of the attack (20 stabs) may support substantial impairment of her ability to understand her actions or exercise self-control. However, medical expert testimony is critical to establish whether her condition meets the criteria under section 2 of the Homicide Act 1957. If the court accepts this evidence, the defence may succeed; otherwise, she risks a murder conviction.
+          The defendant’s act of taking the jacket constitutes appropriation under section 3, as they assumed the rights of the owner by removing it from the shop. The jacket is property (s 4) belonging to the shop (s 5). The key issue is whether the defendant acted dishonestly and intended to permanently deprive the shop of the jacket. The defendant claims they believed the jacket was a free sample due to a promotional display. If this belief was genuine, it may negate dishonesty under section 2(1)(a), as they believed they had a legal right to take it. However, under the <em>Ivey</em> test, the court will assess whether the defendant’s belief was reasonable and whether their conduct was dishonest by ordinary standards. If the promotional display was unclear, a jury might find the belief reasonable, negating dishonesty. Conversely, if evidence suggests the defendant knew payment was required, dishonesty and intention to permanently deprive are likely satisfied, supporting a theft conviction.
         </p>
         <div className={styles.tip}>
-          <strong>Tip:</strong> Systematically apply each element of the rule to the facts, addressing potential weaknesses (e.g., need for medical evidence). Acknowledge alternative outcomes to show critical thinking.
+          <strong>Tip:</strong> Systematically apply each element of the rule to the facts, addressing potential weaknesses (e.g., reasonableness of belief). Acknowledge alternative outcomes to show critical thinking.
         </div>
 
         {/* Conclusion Section */}
         <h3 className={styles.sectionHeading}>Conclusion</h3>
         <p className={styles.sectionContent}>
-          If Sameera’s defence of diminished responsibility is supported by medical evidence proving substantial impairment due to an abnormality of mental functioning, her murder charge could be reduced to voluntary manslaughter under section 2 of the Homicide Act 1957. If the defence fails, she is likely to be convicted of murder, facing a mandatory life sentence.
+          If the defendant genuinely believed the jacket was a free sample and this belief was reasonable, they may not be convicted of theft due to a lack of dishonesty under section 2(1)(a) of the Theft Act 1968. However, if the court finds their belief unreasonable or their conduct dishonest by ordinary standards, they are likely to be convicted of theft, facing a potential fine or imprisonment.
         </p>
         <div className={styles.tip}>
-          <strong>Tip:</strong> Conclude by directly answering the issue and outlining potential outcomes (e.g., manslaughter vs. murder). Mention remedies or consequences to connect the analysis to practical legal implications.
+          <strong>Tip:</strong> Conclude by directly answering the issue and outlining potential outcomes (e.g., conviction vs. acquittal). Mention remedies or consequences to connect the analysis to practical legal implications.
         </div>
 
         {/* Reference Section */}
         <h4 className={styles.referenceHeading}>Full References</h4>
         <p className={styles.sectionContent}>
-          <em>R v Byrne</em> [1960] 2 QB 396.<br />
-          <em>R v Seers</em> [1984] Crim LR 351.<br />
-          Homicide Act 1957, s 2 (as amended by Coroners and Justice Act 2009, s 52).
+          <em>Ivey v Genting Casinos</em> [2017] UKSC 67.<br />
+          Theft Act 1968, ss 1–6.
         </p>
         <div className={styles.tip}>
-          <strong>Tip:</strong> Use OSCOLA format for citations, including cases and statutes. Provide context for each reference to clarify its relevance to the rule or defence.
+          <strong>Tip:</strong> Use OSCOLA format for citations, including cases and statutes. Provide context for each reference to clarify its relevance to the rule or offence.
         </div>
       </section>
 
